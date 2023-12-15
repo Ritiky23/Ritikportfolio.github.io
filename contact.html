@@ -88,15 +88,17 @@
         </div>
       </section>
     </div>
-    <script src="/main-min.js"></script>
+    <script src="main-min.js"></script>
     <script>
         var form = document.getElementById("form");
         form.onsubmit = function(event) {
+        alert("Thank You");
          event.preventDefault();
          var formData = new FormData(form);
          var xhr = new XMLHttpRequest();
          xhr.open("POST", form.action, true);
          xhr.send(formData);
+         form.reset();
          xhr.onload = function(e) {
           var response = JSON.parse(xhr.response);
           if (xhr.status === 200) {
