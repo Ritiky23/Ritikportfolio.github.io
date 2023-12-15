@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Icons</title>
+  <!-- Add FontAwesome CSS link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Add animate.css for additional animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha384-VqYiWAP8MzI6H1SdIqfFXEX6xK3QLYzQj5D9e5WzF7eq2JqN46p7L5WcN6euVkI" crossorigin="anonymous">
+  <style>
+    /* Custom styles for container */
+    .icon-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    /* Custom styles for animated icons */
+    .animated-icon {
+      font-size: 3rem;
+      margin: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="icon-container">
+  <!-- Bounce animation on hover -->
+  <i class="fas fa-code animated-icon animate__animated animate__bounce"></i>
+
+  <!-- Add more icons with different animations as needed -->
+  <i class="fab fa-html5 animated-icon animate__animated animate__heartBeat"></i>
+  <i class="fab fa-css3 animated-icon animate__animated animate__rubberBand"></i>
+</div>
+
+</body>
+</html>
