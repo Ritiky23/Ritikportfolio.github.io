@@ -716,6 +716,20 @@ section {
   font-weight: 600;
 }
 
+.highlight-link {
+  color: var(--accent-indigo);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(99, 102, 241, 0.4);
+  text-underline-offset: 3px;
+  transition: all var(--transition-fast);
+}
+
+.highlight-link:hover {
+  color: var(--accent-violet);
+  text-decoration-color: var(--accent-violet);
+}
+
 /* ==========================================================================
    FEATURED PROJECTS SECTION
    ========================================================================== */
