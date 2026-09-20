@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classic Portfolio Theme Options - Ritik Yadav</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0f17;
+      --card-bg: #111827;
+      --card-border: #1f2937;
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent-blue: #3b82f6;
+      --accent-green: #10b981;
+      --accent-gold: #f59e0b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 40px 20px 80px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      background: rgba(59, 130, 246, 0.15);
+      color: #60a5fa;
+      border: 1px solid rgba(59, 130, 246, 0.3);
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 12px;
+      color: #ffffff;
+      letter-spacing: -0.02em;
+    }
+    p.lead {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .options-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+    .option-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .option-card:hover {
+      border-color: #374151;
+    }
+    .option-header {
+      padding: 24px 30px;
+      border-bottom: 1px solid var(--card-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .option-title-group h2 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
+    .option-title-group p {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+    .tag-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: #1f2937;
+      color: #e5e7eb;
+      border: 1px solid #374151;
+    }
+    .tag-badge.recommended {
+      background: rgba(16, 185, 129, 0.15);
+      color: #34d399;
+      border-color: rgba(16, 185, 129, 0.3);
+    }
+    .image-preview-container {
+      width: 100%;
+      background: #000000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .image-preview-container img {
+      width: 100%;
+      max-width: 1100px;
+      height: auto;
+      border-radius: 8px;
+      display: block;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+    .option-details {
+      padding: 24px 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      background: rgba(255,255,255,0.01);
+    }
+    .detail-item h4 {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+    .detail-item p {
+      font-size: 0.95rem;
+      color: #e5e7eb;
+    }
+    .comparison-box {
+      margin-top: 60px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 30px;
+    }
+    .comparison-box h3 {
+      font-size: 1.3rem;
+      margin-bottom: 16px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+    }
+    th, td {
+      padding: 14px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--card-border);
+      font-size: 0.95rem;
+    }
+    th {
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="badge">Theme Selection Preview</div>
+      <h1>Choose Your Classic Portfolio Theme</h1>
+      <p class="lead">
+        Crafted specifically for technical recruiters, hiring managers, and engineering leaders. High typographic clarity, structured impact metrics, and zero unnecessary visual noise.
+      </p>
+    </header>
+
+    <div class="options-grid">
+
+      <!-- Option 1 -->
+      <div class="option-card" id="option1">
+        <div class="option-header">
+          <div class="option-title-group">
+            <h2>Option 1: The Executive Swiss / Linear Classic</h2>
+            <p>Silicon Valley engineering clarity inspired by Stripe & Linear.</p>
+          </div>
+          <span class="tag-badge recommended">Recommended for Tech HRs</span>
+        </div>
+        <div class="image-preview-container">
+          <img src="img/option1_swiss.jpg" alt="Option 1 - Executive Swiss Theme Preview">
+        </div>
+        <div class="option-details">
+          <div class="detail-item">
+            <h4>Aesthetic</h4>
+            <p>Clean off-white & slate backdrop, razor-sharp 1px dividers, deep charcoal text.</p>
+          </div>
+          <div class="detail-item">
+            <h4>Typography</h4>
+            <p><strong>Plus Jakarta Sans</strong> for titles + <strong>Inter</strong> body + <strong>JetBrains Mono</strong> metrics.</p>
+          </div>
+          <div class="detail-item">
+            <h4>Recruiter Impact</h4>
+            <p>Fastest 15-second skimmability. Instantly exposes role, DSA count, and low-latency metrics.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Option 2 -->
+      <div class="option-card" id="option2">
+        <div class="option-header">
+          <div class="option-title-group">
+            <h2>Option 2: The Editorial Ivy / Classic Monocle</h2>
+            <p>Prestigious academic and editorial tech journal design.</p>
+          </div>
+          <span class="tag-badge">Distinctive & Authoritative</span>
+        </div>
+        <div class="image-preview-container">
+          <img src="img/option2_ivy.jpg" alt="Option 2 - Editorial Ivy Theme Preview">
+        </div>
+        <div class="option-details">
+          <div class="detail-item">
+            <h4>Aesthetic</h4>
+            <p>Warm book-paper ivory background, rich ink-black headlines, British Racing Green accents.</p>
+          </div>
+          <div class="detail-item">
+            <h4>Typography</h4>
+            <p>High-contrast editorial serif (<strong>Instrument Serif</strong> / <strong>Playfair</strong>) + clean sans.</p>
+          </div>
+          <div class="detail-item">
+            <h4>Recruiter Impact</h4>
+            <p>Stands out from 99% of cookie-cutter templates with intellectual gravity and sophistication.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Option 3 -->
+      <div class="option-card" id="option3">
+        <div class="option-header">
+          <div class="option-title-group">
+            <h2>Option 3: The Obsidian Executive (Classic Dark Luxe)</h2>
+            <p>High-performance systems engineering dark theme.</p>
+          </div>
+          <span class="tag-badge">Developer & Manager Favorite</span>
+        </div>
+        <div class="image-preview-container">
+          <img src="img/option3_obsidian.jpg" alt="Option 3 - Obsidian Executive Theme Preview">
+        </div>
+        <div class="option-details">
+          <div class="detail-item">
+            <h4>Aesthetic</h4>
+            <p>Midnight carbon slate, elevated card surfaces, platinum text, champagne & ice-blue accents.</p>
+          </div>
+          <div class="detail-item">
+            <h4>Typography</h4>
+            <p>Modern grotesque sans-serif with high contrast letter-spacing and monospace technical pills.</p>
+          </div>
+          <div class="detail-item">
+            <h4>Recruiter Impact</h4>
+            <p>Mature, serious engineering tone without childish neon glow or chaotic colors.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Comparison Table -->
+    <div class="comparison-box">
+      <h3>Quick Comparison Table</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Option 1: Executive Swiss</th>
+            <th>Option 2: Editorial Ivy</th>
+            <th>Option 3: Obsidian Dark</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Color Mode</strong></td>
+            <td>Crisp Light Slate</td>
+            <td>Warm Paper Ivory</td>
+            <td>Midnight Carbon Dark</td>
+          </tr>
+          <tr>
+            <td><strong>Heading Font</strong></td>
+            <td>Plus Jakarta Sans</td>
+            <td>Instrument Serif</td>
+            <td>Inter / Plus Jakarta Sans</td>
+          </tr>
+          <tr>
+            <td><strong>Accent Color</strong></td>
+            <td>Deep Cobalt Blue (#1D4ED8)</td>
+            <td>Racing Green (#14532D)</td>
+            <td>Champagne / Ice Blue</td>
+          </tr>
+          <tr>
+            <td><strong>Best Suited For</strong></td>
+            <td>Fast HR & Recruiter screening</td>
+            <td>Unique prestige & leadership roles</td>
+            <td>Senior backend / system engineering managers</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+</body>
+</html>

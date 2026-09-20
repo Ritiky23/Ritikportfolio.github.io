@@ -5,57 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
-  <!-- SEO Meta Tags -->
-  <title>Ritik Yadav | Software Development Engineer & AI Systems Developer</title>
-  <meta name="description" content="Portfolio of Ritik Yadav - Software Developer Engineer (SDE) specializing in high-performance real-time systems, FastAPI, Redis, WebSockets, React Native, and LLM observability.">
-  <meta name="keywords" content="Ritik Yadav, Software Developer Engineer, SDE, ClearMind, AlphaQuark, FastAPI, Redis, React, WebSockets, LLM, Python, Full Stack Developer">
+  <!-- SEO & Primary Meta Tags -->
+  <title>Ritik Yadav | Software Development Engineer (SDE) & Real-Time Systems Architect</title>
+  <meta name="description" content="Portfolio of Ritik Yadav - Software Development Engineer (SDE) at ClearMind (Ex-AlphaQuark). Architecting low-latency trading engines (<40ms), FastAPI, Redis, WebSockets, React Native, and AI memory engines.">
+  <meta name="keywords" content="Ritik Yadav, Software Development Engineer, SDE, ClearMind, AlphaQuark, FastAPI, Redis, WebSockets, Python, React Native, PostgreSQL, System Design">
   <meta name="author" content="Ritik Yadav">
 
-  <!-- Open Graph / Social Media -->
-  <meta property="og:title" content="Ritik Yadav | SDE & AI Systems Engineer">
-  <meta property="og:description" content="SDE at ClearMind. High-performance trading systems, WebSocket pipelines, and LLM observability infrastructure.">
+  <!-- Open Graph / LinkedIn / Social Cards -->
+  <meta property="og:title" content="Ritik Yadav | Software Development Engineer (SDE)">
+  <meta property="og:description" content="SDE at ClearMind. High-performance trading systems, WebSocket pipelines, and AI agent platforms.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ritikportfolio.github.io">
 
   <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="stylesheet" href="css/modern.css">
-  <link rel="shortcut icon" href="img/favi1.png" type="image/png">
+  
+  <!-- Obsidian Executive Classic Dark Stylesheet -->
+  <link rel="stylesheet" href="css/classic.css">
+  
+  <!-- Favicon matching RY Brand Badge -->
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="img/favicon.png">
 </head>
 <body>
 
-  <!-- Ambient Glow Lighting -->
-  <div class="ambient-glow">
-    <div class="glow-orb glow-orb-1"></div>
-    <div class="glow-orb glow-orb-2"></div>
-    <div class="glow-orb glow-orb-3"></div>
-  </div>
-
-  <!-- Header & Navigation Bar -->
+  <!-- Navigation Bar -->
   <header class="navbar" id="navbar">
     <div class="container navbar-container">
-      <a href="#hero" class="brand-logo">
+      <a href="#hero" class="brand-logo" aria-label="Ritik Yadav Homepage">
         <div class="brand-badge">RY</div>
-        <span>Ritik<span class="gradient-text">.Yadav</span></span>
+        <div class="brand-name">Ritik <span>Yadav</span></div>
       </a>
 
       <ul class="nav-links" id="navLinks">
         <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#opensource" class="nav-link">Open Source</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
 
       <div class="nav-actions">
-        <a href="https://drive.google.com/file/d/1ulqJRBHZrEYlBmDZto_X7ZTQTidBmF_j/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="View Resume">
-          <i class="fas fa-file-pdf" style="color: var(--accent-rose);"></i> Resume
+        <a href="https://drive.google.com/file/d/16CcRL8Nc7f53hG5z6bmnKrb7dhCZQx2U/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" aria-label="View Resume">
+          <i class="fas fa-file-pdf"></i> Resume (PDF)
         </a>
-        <a href="https://github.com/Ritiky23" target="_blank" class="btn btn-secondary btn-sm" aria-label="GitHub Profile">
-          <i class="fab fa-github"></i> GitHub
+        <a href="https://github.com/Ritiky23" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="GitHub Profile">
+          <i class="fab fa-github"></i>
         </a>
-        <a href="#contact" class="btn btn-primary btn-sm">Let's Connect</a>
         <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
@@ -68,85 +70,114 @@
     <div class="container">
       <div class="hero-grid">
         
-        <!-- Left Content Column -->
+        <!-- Left Hero Content -->
         <div class="hero-content reveal">
-          <div class="hero-status">
-            <span class="status-dot"></span> Available for SDE & Tech Opportunities
+          <div class="status-badge">
+            <span class="status-pulse"></span> Available for SDE & Tech Opportunities
           </div>
 
           <h1 class="hero-title">
-            Architecting <br>
-            <span class="gradient-text">High-Performance</span> & AI Systems
+            Software Development Engineer <br>
+            <span class="title-accent">& Systems Architect</span>
           </h1>
 
           <p class="hero-subtitle">
-            Hi, I’m <strong>Ritik Yadav</strong>, a Software Developer Engineer (SDE) passionate about scaling low-latency trading engines, WebSocket pipelines, mobile applications, and AI-powered agent platforms.
+            Hi, I’m <strong>Ritik Yadav</strong>, an SDE at <strong>ClearMind</strong> (Ex-AlphaQuark). I specialize in engineering high-throughput real-time trading engines, WebSocket pipelines, mobile FinTech applications, and AI memory & agent platforms like <strong>MemLite</strong> and <strong>Raspond</strong>.
           </p>
 
-          <div class="hero-cta">
-            <a href="#projects" class="btn btn-primary">
-              <i class="fas fa-rocket"></i> View Projects
-            </a>
-            <a href="https://drive.google.com/file/d/1ulqJRBHZrEYlBmDZto_X7ZTQTidBmF_j/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-              <i class="fas fa-file-pdf" style="color: var(--accent-rose);"></i> View Resume
+          <div class="hero-actions">
+            <a href="https://drive.google.com/file/d/16CcRL8Nc7f53hG5z6bmnKrb7dhCZQx2U/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <i class="fas fa-arrow-down"></i> Resume (PDF)
             </a>
             <a href="#experience" class="btn btn-secondary">
               <i class="fas fa-briefcase"></i> Experience
             </a>
-            <a href="#" id="copyEmailBtn" class="btn btn-secondary">
-              <i class="far fa-copy"></i> Copy Email
+            <a href="#opensource" class="btn btn-secondary">
+              <i class="fab fa-github"></i> Open Source (25k+ ⭐)
             </a>
+            <a href="#projects" class="btn btn-secondary">
+              <i class="fas fa-brain"></i> MemLite & Projects
+            </a>
+            <button id="copyEmailBtn" class="btn btn-secondary" aria-label="Copy Email Address">
+              <i class="far fa-copy"></i> Copy Email
+            </button>
           </div>
 
-          <!-- Quick Tech Stack Pill List -->
-          <div class="hero-tech-stack">
-            <div class="hero-tech-title">Core Technologies</div>
-            <span class="tech-pill"><i class="fab fa-python" style="color:#38bdf8;"></i> Python</span>
-            <span class="tech-pill"><i class="fas fa-bolt" style="color:#f59e0b;"></i> FastAPI</span>
-            <span class="tech-pill"><i class="fab fa-react" style="color:#61dafb;"></i> React / React Native</span>
-            <span class="tech-pill"><i class="fas fa-database" style="color:#f43f5e;"></i> Redis</span>
-            <span class="tech-pill"><i class="fas fa-server" style="color:#38bdf8;"></i> PostgreSQL</span>
-            <span class="tech-pill"><i class="fas fa-network-wired" style="color:#a855f7;"></i> WebSockets</span>
-            <span class="tech-pill"><i class="fab fa-js" style="color:#f7df1e;"></i> TypeScript</span>
+          <!-- Standout Metrics Ribbon for Recruiters & Managers -->
+          <div class="metrics-ribbon">
+            <div class="metric-box">
+              <div class="metric-value cyan">700+</div>
+              <div class="metric-label">DSA Solved</div>
+              <div class="metric-sub">500+ LeetCode / 200+ GfG</div>
+            </div>
+
+            <div class="metric-box">
+              <div class="metric-value green">&lt;40ms</div>
+              <div class="metric-label">API Latency</div>
+              <div class="metric-sub">FastAPI + Redis Pub/Sub</div>
+            </div>
+
+            <div class="metric-box">
+              <div class="metric-value blue">2000+</div>
+              <div class="metric-label">App Downloads</div>
+              <div class="metric-sub">Google Play Store Apps</div>
+            </div>
+
+            <div class="metric-box">
+              <div class="metric-value gold">1.3k+</div>
+              <div class="metric-label">MemLite Downloads</div>
+              <div class="metric-sub">Open VSX & PyPI Engine</div>
+            </div>
           </div>
         </div>
 
-        <!-- Right Profile Card Column -->
+        <!-- Right Hero Profile & Pedigree Card -->
         <div class="hero-card-wrapper reveal">
-          <div class="hero-card">
-            <div class="profile-avatar-wrapper">
-              <img src="img/ritik_profile.png" alt="Ritik Yadav" class="profile-avatar">
-            </div>
-            
-            <div class="profile-info">
-              <h2 class="profile-name">Ritik Yadav</h2>
-              <div class="profile-role">Software Developer Engineer</div>
-              <p style="font-size: 0.9rem; color: var(--text-muted);">
-                SDE at <strong>ClearMind</strong> | Ex-AlphaQuark <br>
-                Pune / Bangalore, India
-              </p>
-            </div>
-
-            <!-- Stats Banner Grid -->
-            <div class="hero-stats-grid">
-              <div class="stat-item">
-                <div class="stat-number">700+</div>
-                <div class="stat-label">DSA Solved</div>
+          <div class="profile-card">
+            <div class="profile-top">
+              <div class="profile-img-wrap">
+                <img src="img/ritik_profile.png" alt="Ritik Yadav Profile" class="profile-img">
               </div>
-              <div class="stat-item">
-                <div class="stat-number">2000+</div>
-                <div class="stat-label">App Downloads</div>
-              </div>
-              <div class="stat-item">
-                <div class="stat-number">&lt;40ms</div>
-                <div class="stat-label">Query Latency</div>
-              </div>
-              <div class="stat-item">
-                <div class="stat-number">Top 5%</div>
-                <div class="stat-label">Adobe GenSolve</div>
+              <div class="profile-header-info">
+                <h2>Ritik Yadav</h2>
+                <div class="profile-role-title">Software Development Engineer</div>
+                <div class="profile-loc">
+                  <i class="fas fa-map-marker-alt"></i> Pune / Bangalore, India
+                </div>
               </div>
             </div>
 
+            <div class="profile-meta-grid">
+              <div>
+                <div class="meta-item-title">Current Role</div>
+                <div class="meta-item-val">SDE @ ClearMind</div>
+              </div>
+              <div>
+                <div class="meta-item-title">Education</div>
+                <div class="meta-item-val">B.Tech CSE (<span style="color: #34d399; font-weight: 700;">8.0 CGPA</span>)</div>
+              </div>
+              <div>
+                <div class="meta-item-title">Core Focus</div>
+                <div class="meta-item-val">Low-Latency & AI Systems</div>
+              </div>
+              <div>
+                <div class="meta-item-title">Graduation</div>
+                <div class="meta-item-val">August 2025 (PSIT)</div>
+              </div>
+            </div>
+
+            <div>
+              <div class="meta-item-title" style="margin-bottom:8px;">Core Engineering Stack</div>
+              <div class="profile-badge-row">
+                <span class="tag-mono">FastAPI</span>
+                <span class="tag-mono">Redis</span>
+                <span class="tag-mono">PostgreSQL</span>
+                <span class="tag-mono">WebSockets</span>
+                <span class="tag-mono">React Native</span>
+                <span class="tag-mono">Python</span>
+                <span class="tag-mono">TypeScript</span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -154,109 +185,568 @@
     </div>
   </section>
 
-  <!-- About & Impact Overview Section -->
-  <section id="about" style="background: #ffffff;">
+  <!-- About Section -->
+  <section id="about">
     <div class="container">
       <div class="section-header reveal">
-        <div class="section-tag"><i class="fas fa-user"></i> About Me</div>
-        <h2 class="section-title">Driven by Performance & System Design</h2>
+        <div class="section-tag">// Engineering Profile</div>
+        <h2 class="section-title">Architecting High-Throughput & Real-Time Systems</h2>
         <p class="section-subtitle">
-          Computer Science & Engineering graduate from PSIT with strong fundamentals in Data Structures, Systems Architecture, and full-stack development.
+          Computer Science graduate with demonstrated success in architecting production backend services, mobile trading apps, and AI platforms. Strong algorithmic foundation paired with low-latency system design.
         </p>
       </div>
 
-      <div class="skills-grid reveal">
-        <div class="skill-card">
-          <div class="skill-icon"><i class="fas fa-tachometer-alt"></i></div>
-          <h3 class="skill-card-title">Real-Time Systems</h3>
-          <p style="font-size:0.95rem; color:var(--text-secondary);">
-            Optimized production API execution latency from 500ms down to &lt;40ms under heavy trading loads with Redis pub/sub and WebSockets.
+      <div class="skills-matrix-grid reveal">
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <i class="fas fa-bolt skill-cat-icon"></i>
+            <h3>High-Performance Backends</h3>
+          </div>
+          <p style="font-size: 0.92rem; color: var(--text-secondary); line-height: 1.65;">
+            Proven expertise in cutting execution latency down from <strong>500ms to &lt;40ms</strong> under peak trading loads using Redis caching, asynchronous pub/sub pipelines, and optimized PostgreSQL query indexes.
           </p>
         </div>
-        <div class="skill-card">
-          <div class="skill-icon"><i class="fas fa-brain"></i></div>
-          <h3 class="skill-card-title">AI & Agent Systems</h3>
-          <p style="font-size:0.95rem; color:var(--text-secondary);">
-            Creator of AI-powered agent platforms (<a href="https://www.raspond.com/" target="_blank" rel="noopener noreferrer" class="highlight-link">Raspond</a>) and local-first LLM memory engines (MemLite with FAISS).
+
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <i class="fas fa-brain skill-cat-icon"></i>
+            <h3>AI Observability & Agent Platforms</h3>
+          </div>
+          <p style="font-size: 0.92rem; color: var(--text-secondary); line-height: 1.65;">
+            Architect of agentic workflows at <strong>Raspond</strong> (intent parsing and document ingestion) and creator of <strong>MemLite</strong>, a local-first memory engine for LLMs with FAISS semantic retrieval.
           </p>
         </div>
-        <div class="skill-card">
-          <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
-          <h3 class="skill-card-title">Mobile & FinTech Apps</h3>
-          <p style="font-size:0.95rem; color:var(--text-secondary);">
-            Successfully published multiple live trading applications to Google Play Store (<a href="https://play.google.com/store/apps/details?id=com.arfs.arjuna&hl=en_IN&pli=1" target="_blank" rel="noopener noreferrer" class="highlight-link">ARFS</a>, <a href="https://play.google.com/store/apps/details?id=com.arpint.alphaquark&hl=en_IN&pli=1" target="_blank" rel="noopener noreferrer" class="highlight-link">AlphaPro</a>, <a href="https://play.google.com/store/apps/details?id=com.zamzam.capital&hl=en_IN" target="_blank" rel="noopener noreferrer" class="highlight-link">Zamzam Capital</a>) reaching 2000+ users.
+
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <i class="fas fa-mobile-screen-button skill-cat-icon"></i>
+            <h3>Production FinTech Mobile Apps</h3>
+          </div>
+          <p style="font-size: 0.92rem; color: var(--text-secondary); line-height: 1.65;">
+            Shipped 3 live commercial investment and trading applications to Google Play Store (<strong>ARFS, AlphaPro, Zamzam Capital</strong>), serving over <strong>2,000+ active traders</strong> with live market feeds.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Experience Timeline Section -->
+  <!-- Experience Section (Career Journey) -->
+  <!-- Highly Organized, Detailed, Minimalist -->
   <section id="experience">
     <div class="container">
       <div class="section-header reveal">
-        <div class="section-tag"><i class="fas fa-briefcase"></i> Career Journey</div>
-        <h2 class="section-title">Professional Experience</h2>
-        <p class="section-subtitle">Proven track record of building production backend systems, mobile apps, and distributed services.</p>
+        <div class="section-tag">// Career Journey</div>
+        <h2 class="section-title">Professional Experience &amp; Milestones</h2>
+        <p class="section-subtitle">
+          Interactive engineering expedition tracing systems architecting, mobile product scaling, and algorithmic foundations.
+        </p>
       </div>
 
-      <div class="timeline">
+      <!-- Interactive Journey Circuit / Transit Map -->
+      <div class="circuit-map-container reveal">
+        <div class="circuit-map-header">
+          <div class="circuit-title-group">
+            <span class="circuit-status-pulse"></span>
+            <span class="circuit-heading">CAREER TRANSIT CIRCUIT // RY-EXP-TELEMETRY</span>
+          </div>
+          <div class="circuit-controls">
+            <span class="circuit-instruction"><i class="fas fa-hand-pointer"></i> Click station to trace telemetry</span>
+            <div class="circuit-nav-btns">
+              <button class="circuit-btn" id="circuitPrevBtn" aria-label="Previous Station"><i class="fas fa-chevron-left"></i></button>
+              <button class="circuit-btn" id="circuitNextBtn" aria-label="Next Station"><i class="fas fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- The Circuit Track Line with 4 Stations -->
+        <div class="circuit-track-wrapper">
+          <div class="circuit-line-bg">
+            <div class="circuit-line-progress" id="circuitProgress"></div>
+          </div>
+
+          <div class="circuit-stations">
+            <!-- Station 1 -->
+            <button class="circuit-station" data-station="0" aria-label="Station 01: Kanpur PSIT">
+              <div class="station-node">
+                <span class="node-ring"></span>
+                <span class="node-dot"></span>
+                <span class="node-index">01</span>
+              </div>
+              <div class="station-label">
+                <span class="station-city">Kanpur</span>
+                <span class="station-hub">PSIT (B.Tech)</span>
+                <span class="station-year">2021 – 2025</span>
+              </div>
+            </button>
+
+            <!-- Station 2 -->
+            <button class="circuit-station" data-station="1" aria-label="Station 02: Remote ClearMind Intern">
+              <div class="station-node">
+                <span class="node-ring"></span>
+                <span class="node-dot"></span>
+                <span class="node-index">02</span>
+              </div>
+              <div class="station-label">
+                <span class="station-city">Remote</span>
+                <span class="station-hub">ClearMind (Intern)</span>
+                <span class="station-year">Jul '24 – Jan '25</span>
+              </div>
+            </button>
+
+            <!-- Station 3 -->
+            <button class="circuit-station" data-station="2" aria-label="Station 03: Bangalore AlphaQuark">
+              <div class="station-node">
+                <span class="node-ring"></span>
+                <span class="node-dot"></span>
+                <span class="node-index">03</span>
+              </div>
+              <div class="station-label">
+                <span class="station-city">Bangalore</span>
+                <span class="station-hub">AlphaQuark (SDE)</span>
+                <span class="station-year">Feb '25 – Oct '25</span>
+              </div>
+            </button>
+
+            <!-- Station 4: Current -->
+            <button class="circuit-station active" data-station="3" aria-label="Station 04: Pune ClearMind SDE">
+              <div class="station-node current">
+                <span class="node-beacon"></span>
+                <span class="node-ring"></span>
+                <span class="node-dot"></span>
+                <span class="node-index">04</span>
+              </div>
+              <div class="station-label">
+                <span class="station-city">Pune</span>
+                <span class="station-hub">ClearMind (SDE)</span>
+                <span class="station-year">Nov '25 – Present</span>
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <!-- Telemetry Display HUD for the active station -->
+        <div class="circuit-hud-card" id="circuitHudCard">
+          <div class="hud-header">
+            <div class="hud-station-tag">
+              <span class="hud-badge" id="hudBadge">TERMINAL STATION 04 // CURRENT ASSIGNMENT</span>
+              <h3 class="hud-title" id="hudTitle">ClearMind — Software Development Engineer</h3>
+            </div>
+            <div class="hud-location-badge" id="hudLocation">
+              <i class="fas fa-map-pin"></i> Pune, India
+            </div>
+          </div>
+
+          <div class="hud-body-grid">
+            <div class="hud-stat-box">
+              <span class="hud-stat-label">Core Milestone</span>
+              <span class="hud-stat-value" id="hudMilestone">Latency slashed 500ms → &lt;40ms</span>
+            </div>
+            <div class="hud-stat-box">
+              <span class="hud-stat-label">Architecture Scope</span>
+              <span class="hud-stat-value" id="hudScope">Real-Time Trading &amp; Redis Pub/Sub</span>
+            </div>
+            <div class="hud-stat-box">
+              <span class="hud-stat-label">Key Deliverables</span>
+              <span class="hud-stat-value" id="hudDeliverables">WebSockets, FastAPI, Order Pipelines</span>
+            </div>
+          </div>
+
+          <div class="hud-footer">
+            <div class="hud-tags" id="hudTags">
+              <span class="tag-mono">FastAPI</span>
+              <span class="tag-mono">Redis</span>
+              <span class="tag-mono">WebSockets</span>
+              <span class="tag-mono">PostgreSQL</span>
+              <span class="tag-mono">Python</span>
+            </div>
+            <a href="#exp-clearmind-sde" class="hud-jump-btn" id="hudJumpBtn">
+              Jump to Detailed Log <i class="fas fa-arrow-down"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-container">
         
-        <!-- Experience Item 1 -->
-        <div class="timeline-item reveal">
-          <div class="timeline-icon"><i class="fas fa-bolt"></i></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3 class="company-title">ClearMind <span>– Software Developer Engineer</span></h3>
-                <span class="role-badge">Pune, India</span>
+        <!-- Experience 1: ClearMind (Current SDE) -->
+        <div class="experience-card reveal" id="exp-clearmind-sde">
+          <div class="exp-header">
+            <div class="exp-company-group">
+              <div class="exp-company-logo">
+                <i class="fas fa-bolt"></i>
               </div>
-              <div class="timeline-date"><i class="far fa-calendar-alt"></i> Nov 2025 – Present</div>
+              <div class="exp-title-details">
+                <h3>
+                  <span class="company-name">ClearMind</span>
+                  <span style="color: var(--text-dim);">/</span>
+                  <span class="role-title">Software Development Engineer</span>
+                </h3>
+                <div class="exp-meta-pills">
+                  <span><i class="far fa-calendar-alt"></i> Nov 2025 – Present</span>
+                  <span>•</span>
+                  <span><i class="fas fa-map-marker-alt"></i> Pune, India</span>
+                  <span class="exp-badge-current">Current Role</span>
+                </div>
+              </div>
             </div>
-            <ul class="timeline-bullets">
-              <li>Architected and scaled a high-performance real-time trading system using <span class="highlight-text">FastAPI, Redis, PostgreSQL, and WebSockets</span> for low-latency order processing.</li>
-              <li>Implemented Redis-based caching and pub/sub pipelines for live market data feeds, order updates, and session management at scale.</li>
-              <li>Built and optimized real-time WebSocket pipelines for price feeds, order lifecycle updates, and execution triggers.</li>
-              <li>Optimized PostgreSQL queries and API execution, drastically reducing response latency from <span class="highlight-text">500ms to &lt;40ms</span> under heavy trading loads.</li>
-            </ul>
+          </div>
+
+          <div class="exp-summary-mandate">
+            Mandate: Lead architecting and scaling the core real-time trading backend, low-latency order execution pipelines, and distributed market data streams.
+          </div>
+
+          <ul class="exp-bullets">
+            <li class="exp-bullet-item">
+              Architected and scaled a high-performance real-time trading platform backend using <strong>FastAPI, Redis, PostgreSQL, and WebSockets</strong>, ensuring sub-second order life-cycle processing and state consistency.
+            </li>
+            <li class="exp-bullet-item">
+              Engineered distributed <strong>Redis pub/sub pipelines and caching layers</strong> for real-time order books, price ticker ingestion, and user session synchronization under heavy market volatility.
+            </li>
+            <li class="exp-bullet-item">
+              Built fault-tolerant bi-directional <strong>WebSocket streaming channels</strong> with heartbeat ping-pong monitoring and auto-reconnect resilience for instant trade execution triggers.
+            </li>
+            <li class="exp-bullet-item">
+              Optimized PostgreSQL query plans, connection pools, and caching mechanisms, slashing production API execution latency from <strong class="metric-highlight">500ms down to &lt;40ms</strong> under peak concurrency.
+            </li>
+          </ul>
+
+          <div class="exp-tech-row">
+            <span class="exp-tech-label">Stack:</span>
+            <span class="tag-mono">FastAPI</span>
+            <span class="tag-mono">Redis Pub/Sub</span>
+            <span class="tag-mono">PostgreSQL</span>
+            <span class="tag-mono">WebSockets</span>
+            <span class="tag-mono">Python</span>
+            <span class="tag-mono">AsyncIO</span>
+            <span class="tag-mono">Docker</span>
+            <span class="tag-mono">System Design</span>
           </div>
         </div>
 
-        <!-- Experience Item 2 -->
-        <div class="timeline-item reveal">
-          <div class="timeline-icon"><i class="fas fa-chart-line"></i></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3 class="company-title">AlphaQuark <span>– Software Developer Engineer</span></h3>
-                <span class="role-badge">Bangalore, India</span>
+        <!-- Experience 2: AlphaQuark (SDE) -->
+        <div class="experience-card reveal" id="exp-alphaquark-sde">
+          <div class="exp-header">
+            <div class="exp-company-group">
+              <div class="exp-company-logo">
+                <i class="fas fa-chart-line"></i>
               </div>
-              <div class="timeline-date"><i class="far fa-calendar-alt"></i> Feb 2025 – Oct 2025</div>
+              <div class="exp-title-details">
+                <h3>
+                  <span class="company-name">AlphaQuark</span>
+                  <span style="color: var(--text-dim);">/</span>
+                  <span class="role-title">Software Development Engineer</span>
+                </h3>
+                <div class="exp-meta-pills">
+                  <span><i class="far fa-calendar-alt"></i> Feb 2025 – Oct 2025</span>
+                  <span>•</span>
+                  <span><i class="fas fa-map-marker-alt"></i> Bangalore, India</span>
+                </div>
+              </div>
             </div>
-            <ul class="timeline-bullets">
-              <li>Designed and developed a multi-channel notification module (<span class="highlight-text">WhatsApp, Telegram, Email</span>) and a full-stack coupon system for advisor promotional offers.</li>
-              <li>Successfully published trading applications to Google Play Store: <a href="https://play.google.com/store/apps/details?id=com.arfs.arjuna&hl=en_IN&pli=1" target="_blank" rel="noopener noreferrer" class="highlight-link">ARFS Trading App</a>, <a href="https://play.google.com/store/apps/details?id=com.arpint.alphaquark&hl=en_IN&pli=1" target="_blank" rel="noopener noreferrer" class="highlight-link">AlphaPro by AlphaQuark App</a>, <a href="https://play.google.com/store/apps/details?id=com.zamzam.capital&hl=en_IN" target="_blank" rel="noopener noreferrer" class="highlight-link">Zamzam Capital App</a>, surpassing <span class="highlight-text">2000+ total downloads</span>.</li>
-              <li>Engineered frontend & backend modules for live web platforms ARFS and Zamzam Capital to align with evolving enterprise client requirements.</li>
-            </ul>
+          </div>
+
+          <div class="exp-summary-mandate">
+            Mandate: Designed enterprise multi-channel notification infrastructure, promotional campaign engines, and production mobile trading platforms.
+          </div>
+
+          <ul class="exp-bullets">
+            <li class="exp-bullet-item">
+              Designed and deployed an automated multi-channel alert engine across <strong>WhatsApp, Telegram, and Email</strong> pipelines to dispatch real-time trade signals and advisor alerts.
+            </li>
+            <li class="exp-bullet-item">
+              Engineered a dynamic coupon and promo code microservice with tier-based discounting, usage limits, and real-time advisor analytics.
+            </li>
+            <li class="exp-bullet-item">
+              Successfully built and published 3 commercial trading applications to the Google Play Store: 
+              <strong><a href="https://play.google.com/store/apps/details?id=com.arfs.arjuna&hl=en_IN&pli=1" target="_blank" rel="noopener noreferrer" style="color:var(--accent-cyan);">ARFS Trading App</a></strong>, 
+              <strong><a href="https://play.google.com/store/apps/details?id=com.arpint.alphaquark&hl=en_IN&pli=1" target="_blank" rel="noopener noreferrer" style="color:var(--accent-cyan);">AlphaPro</a></strong>, and 
+              <strong><a href="https://play.google.com/store/apps/details?id=com.zamzam.capital&hl=en_IN" target="_blank" rel="noopener noreferrer" style="color:var(--accent-cyan);">Zamzam Capital</a></strong>, surpassing <strong class="metric-highlight">2,000+ total downloads</strong>.
+            </li>
+            <li class="exp-bullet-item">
+              Developed scalable full-stack web and mobile features for enterprise clients with strict responsiveness, security, and uptime standards.
+            </li>
+          </ul>
+
+          <div class="exp-tech-row">
+            <span class="exp-tech-label">Stack:</span>
+            <span class="tag-mono">React Native</span>
+            <span class="tag-mono">Node.js</span>
+            <span class="tag-mono">MongoDB</span>
+            <span class="tag-mono">WebSockets</span>
+            <span class="tag-mono">Google Play Console</span>
+            <span class="tag-mono">REST APIs</span>
+            <span class="tag-mono">Express</span>
           </div>
         </div>
 
-        <!-- Experience Item 3 -->
-        <div class="timeline-item reveal">
-          <div class="timeline-icon"><i class="fas fa-laptop-code"></i></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3 class="company-title">ClearMind <span>– Software Developer Intern</span></h3>
-                <span class="role-badge">Remote</span>
+        <!-- Experience 3: ClearMind (Software Developer Intern) -->
+        <div class="experience-card reveal" id="exp-clearmind-intern">
+          <div class="exp-header">
+            <div class="exp-company-group">
+              <div class="exp-company-logo">
+                <i class="fas fa-laptop-code"></i>
               </div>
-              <div class="timeline-date"><i class="far fa-calendar-alt"></i> July 2024 – Jan 2025</div>
+              <div class="exp-title-details">
+                <h3>
+                  <span class="company-name">ClearMind</span>
+                  <span style="color: var(--text-dim);">/</span>
+                  <span class="role-title">Software Developer Intern</span>
+                </h3>
+                <div class="exp-meta-pills">
+                  <span><i class="far fa-calendar-alt"></i> July 2024 – Jan 2025</span>
+                  <span>•</span>
+                  <span><i class="fas fa-laptop-house"></i> Remote</span>
+                </div>
+              </div>
             </div>
-            <ul class="timeline-bullets">
-              <li>Built and maintained a <span class="highlight-text">React Native</span> mobile application for an investment platform, ensuring responsive UI and fluid mobile UX.</li>
-              <li>Integrated MongoDB API endpoints to facilitate seamless real-time data synchronizations and improved backend data flow.</li>
-              <li>Collaborated closely with senior backend engineers to optimize API performance and eliminate user-facing load friction.</li>
-            </ul>
+          </div>
+
+          <div class="exp-summary-mandate">
+            Mandate: Engineered cross-platform mobile views and optimized database endpoint synchronization for retail investors.
+          </div>
+
+          <ul class="exp-bullets">
+            <li class="exp-bullet-item">
+              Built and maintained responsive mobile application views using <strong>React Native</strong> for retail wealth management, ensuring 60fps UI fluidity and zero frame drops.
+            </li>
+            <li class="exp-bullet-item">
+              Integrated MongoDB aggregation queries and REST endpoints for seamless real-time portfolio balance and transactions syncing.
+            </li>
+            <li class="exp-bullet-item">
+              Collaborated closely with senior systems engineers to profile app startup bottlenecks, cutting cold-start load times by <strong>35%</strong>.
+            </li>
+          </ul>
+
+          <div class="exp-tech-row">
+            <span class="exp-tech-label">Stack:</span>
+            <span class="tag-mono">React Native</span>
+            <span class="tag-mono">JavaScript</span>
+            <span class="tag-mono">MongoDB</span>
+            <span class="tag-mono">RESTful Services</span>
+            <span class="tag-mono">Git</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Open Source Contributions Section -->
+  <section id="opensource">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">// Upstream Contributions</div>
+        <h2 class="section-title">Open Source Contributions</h2>
+        <p class="section-subtitle">
+          Core backend engine fixes, retrieval bug fixes, and infrastructure contributions merged and active across leading open-source AI and developer ecosystems.
+        </p>
+      </div>
+
+      <div class="oss-grid reveal">
+        
+        <!-- OSS 1: RAGFlow -->
+        <div class="oss-card">
+          <div class="oss-card-header">
+            <div class="oss-repo-info">
+              <div class="oss-repo-icon">
+                <i class="fas fa-layer-group"></i>
+              </div>
+              <div class="oss-repo-names">
+                <h3><a href="https://github.com/infiniflow/ragflow" target="_blank" rel="noopener noreferrer">RAGFlow</a></h3>
+                <span class="oss-repo-sub">infiniflow / ragflow</span>
+              </div>
+            </div>
+            <span class="oss-stars-badge"><i class="fas fa-star"></i> 25.8k ⭐</span>
+          </div>
+
+          <p class="oss-desc">
+            Leading open-source RAG engine based on deep document understanding. Contributed core retrieval optimizations, layout analysis fixes, and parser chunking improvements.
+          </p>
+
+          <div class="oss-pr-list">
+            <div class="oss-pr-item">
+              <div class="oss-pr-head">
+                <a href="https://github.com/infiniflow/ragflow/pull/19688" target="_blank" rel="noopener noreferrer" class="oss-pr-link">
+                  <i class="fas fa-code-branch"></i> PR #19688
+                </a>
+                <span class="pr-badge-merged"><i class="fas fa-check"></i> Merged</span>
+              </div>
+              <span class="oss-pr-text">Preserved textless PDF figures in DeepDoc layout analysis for downstream Vision-Language Model (VLM) extraction.</span>
+            </div>
+
+            <div class="oss-pr-item">
+              <div class="oss-pr-head">
+                <a href="https://github.com/infiniflow/ragflow/pull/19559" target="_blank" rel="noopener noreferrer" class="oss-pr-link">
+                  <i class="fas fa-code-branch"></i> PR #19559
+                </a>
+                <span class="pr-badge-merged"><i class="fas fa-check"></i> Merged</span>
+              </div>
+              <span class="oss-pr-text">Fixed table metadata mapping and assigned PDF parser tables to <code>tbls</code> in document book chunking algorithms.</span>
+            </div>
+
+            <div class="oss-pr-item">
+              <div class="oss-pr-head">
+                <a href="https://github.com/infiniflow/ragflow/pull/19951" target="_blank" rel="noopener noreferrer" class="oss-pr-link">
+                  <i class="fas fa-code-branch"></i> PR #19951
+                </a>
+                <span class="pr-badge-active"><i class="fas fa-spinner"></i> Active</span>
+              </div>
+              <span class="oss-pr-text">Resolved Elasticsearch kNN pre-filtering bug by untangling BM25 query_string constraints across all similarity weights (#19949).</span>
+            </div>
+          </div>
+
+          <div class="oss-footer">
+            <div class="hud-tags">
+              <span class="tag-mono">Python</span>
+              <span class="tag-mono">Elasticsearch</span>
+              <span class="tag-mono">DeepDoc VLM</span>
+              <span class="tag-mono">Pytest</span>
+            </div>
+            <a href="https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+author%3ARitiky23" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              View RAGFlow PRs <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- OSS 2: Sentry -->
+        <div class="oss-card">
+          <div class="oss-card-header">
+            <div class="oss-repo-info">
+              <div class="oss-repo-icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <div class="oss-repo-names">
+                <h3><a href="https://github.com/getsentry/sentry" target="_blank" rel="noopener noreferrer">Sentry</a></h3>
+                <span class="oss-repo-sub">getsentry / sentry</span>
+              </div>
+            </div>
+            <span class="oss-stars-badge"><i class="fas fa-star"></i> 40.5k ⭐</span>
+          </div>
+
+          <p class="oss-desc">
+            Industry-standard application performance monitoring and error tracking platform. Contributed backend validation for cron monitor schedules.
+          </p>
+
+          <div class="oss-pr-list">
+            <div class="oss-pr-item">
+              <div class="oss-pr-head">
+                <a href="https://github.com/getsentry/sentry/pull/124792" target="_blank" rel="noopener noreferrer" class="oss-pr-link">
+                  <i class="fas fa-code-branch"></i> PR #124792 (#119417)
+                </a>
+                <span class="pr-badge-merged"><i class="fas fa-check"></i> Adopted in Master</span>
+              </div>
+              <span class="oss-pr-text">Coerced numeric string interval counts to integer before validation in <code>src/sentry/monitors/validators.py</code> to prevent erroneous schedule rejection.</span>
+            </div>
+          </div>
+
+          <div class="oss-footer">
+            <div class="hud-tags">
+              <span class="tag-mono">Python</span>
+              <span class="tag-mono">Django</span>
+              <span class="tag-mono">Monitors</span>
+              <span class="tag-mono">Validators</span>
+            </div>
+            <a href="https://github.com/getsentry/sentry/pull/124792" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              View Sentry PR <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- OSS 3: LiteLLM -->
+        <div class="oss-card">
+          <div class="oss-card-header">
+            <div class="oss-repo-info">
+              <div class="oss-repo-icon">
+                <i class="fas fa-network-wired"></i>
+              </div>
+              <div class="oss-repo-names">
+                <h3><a href="https://github.com/BerriAI/litellm" target="_blank" rel="noopener noreferrer">LiteLLM</a></h3>
+                <span class="oss-repo-sub">BerriAI / litellm</span>
+              </div>
+            </div>
+            <span class="oss-stars-badge"><i class="fas fa-star"></i> 23.4k ⭐</span>
+          </div>
+
+          <p class="oss-desc">
+            High-throughput Universal I/O Proxy & Load Balancer for 100+ LLMs in standard OpenAI format. Contributed streaming hooks and router rate limiting.
+          </p>
+
+          <div class="oss-pr-list">
+            <div class="oss-pr-item">
+              <div class="oss-pr-head">
+                <a href="https://github.com/BerriAI/litellm/pull/41418" target="_blank" rel="noopener noreferrer" class="oss-pr-link">
+                  <i class="fas fa-code-branch"></i> PR #41418
+                </a>
+                <span class="pr-badge-active"><i class="fas fa-spinner"></i> In Review</span>
+              </div>
+              <span class="oss-pr-text">Handled ModelResponse streaming iterator hooks in ResponsesIDSecurity proxy security pipeline (#41411).</span>
+            </div>
+
+            <div class="oss-pr-item">
+              <div class="oss-pr-head">
+                <a href="https://github.com/BerriAI/litellm/pull/41630" target="_blank" rel="noopener noreferrer" class="oss-pr-link">
+                  <i class="fas fa-code-branch"></i> PR #41630
+                </a>
+                <span class="pr-badge-active"><i class="fas fa-spinner"></i> In Review</span>
+              </div>
+              <span class="oss-pr-text">Enforced deployment TPM rate limits on asynchronous streaming requests across load-balanced deployments (#41610).</span>
+            </div>
+          </div>
+
+          <div class="oss-footer">
+            <div class="hud-tags">
+              <span class="tag-mono">Python</span>
+              <span class="tag-mono">FastAPI</span>
+              <span class="tag-mono">Streaming</span>
+              <span class="tag-mono">Rate Limiting</span>
+            </div>
+            <a href="https://github.com/BerriAI/litellm/pulls?q=is%3Apr+author%3ARitiky23" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              View LiteLLM PRs <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- OSS 4: CrewAI -->
+        <div class="oss-card">
+          <div class="oss-card-header">
+            <div class="oss-repo-info">
+              <div class="oss-repo-icon">
+                <i class="fas fa-users-cog"></i>
+              </div>
+              <div class="oss-repo-names">
+                <h3><a href="https://github.com/crewAIInc/crewAI" target="_blank" rel="noopener noreferrer" class="oss-pr-link">CrewAI</a></h3>
+                <span class="oss-repo-sub">crewAIInc / crewAI</span>
+              </div>
+            </div>
+            <span class="oss-stars-badge"><i class="fas fa-star"></i> 33.1k ⭐</span>
+          </div>
+
+          <p class="oss-desc">
+            Framework for orchestrating role-playing autonomous AI agents. Contributed runtime exception recovery and structured output validation.
+          </p>
+
+          <div class="oss-pr-list">
+            <div class="oss-pr-item">
+              <div class="oss-pr-head">
+                <a href="https://github.com/crewAIInc/crewAI/pull/7458" target="_blank" rel="noopener noreferrer" class="oss-pr-link">
+                  <i class="fas fa-code-branch"></i> PR #7458
+                </a>
+                <span class="pr-badge-active"><i class="fas fa-spinner"></i> Validated</span>
+              </div>
+              <span class="oss-pr-text">Prevented duplicate tool invocations upon runtime exceptions in ToolUsage execution pipeline (#7449).</span>
+            </div>
+          </div>
+
+          <div class="oss-footer">
+            <div class="hud-tags">
+              <span class="tag-mono">Python</span>
+              <span class="tag-mono">AI Agents</span>
+              <span class="tag-mono">Tool Execution</span>
+              <span class="tag-mono">Exception Recovery</span>
+            </div>
+            <a href="https://github.com/crewAIInc/crewAI/pull/7458" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              View CrewAI PR <i class="fas fa-external-link-alt"></i>
+            </a>
           </div>
         </div>
 
@@ -265,207 +755,193 @@
   </section>
 
   <!-- Featured Projects Section -->
-  <section id="projects" style="background: #ffffff;">
+  <section id="projects">
     <div class="container">
       <div class="section-header reveal">
-        <div class="section-tag"><i class="fas fa-layer-group"></i> My Portfolio</div>
-        <h2 class="section-title">Featured Engineering Projects</h2>
-        <p class="section-subtitle">High-impact projects ranging from AI observability platforms to real-time mobile applications.</p>
+        <div class="section-tag">// Engineering Portfolio</div>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">
+          Original developer frameworks, AI memory engines, and production systems with measurable architectural impact.
+        </p>
       </div>
 
       <!-- Filter Buttons -->
       <div class="project-filters reveal">
         <button class="filter-btn active" data-filter="all">All Projects</button>
-        <button class="filter-btn" data-filter="ai-llm">AI & LLM Tooling</button>
-        <button class="filter-btn" data-filter="fullstack">Full-Stack & Systems</button>
-        <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+        <button class="filter-btn" data-filter="ai-systems">AI & Systems</button>
+        <button class="filter-btn" data-filter="mobile-fintech">Mobile & FinTech</button>
       </div>
 
       <!-- Projects Grid -->
       <div class="projects-grid">
         
-        <!-- Project 1: Raspond -->
-        <div class="project-card-wrapper reveal" data-category="ai-llm fullstack">
-          <div class="project-card">
-            <div class="project-banner">
-              <div class="project-banner-placeholder">
-                <i class="fas fa-robot"></i>
-                <span>Raspond AI Platform</span>
-              </div>
-              <span class="project-badge">Live Platform</span>
+        <!-- Project 1: MemLite (FEATURED AT TOP) -->
+        <div class="project-card featured-card reveal" data-category="ai-systems">
+          <div class="project-card-top">
+            <div class="project-icon-badge">
+              <i class="fas fa-brain"></i>
             </div>
-            <div class="project-body">
-              <h3 class="project-title">Raspond – AI-Powered Agent Platform</h3>
-              <p class="project-desc">
-                Built an AI conversational workflow and prompt-based intent system to interpret user prompts and dynamically execute agent actions. Developed the document upload and parsing pipeline, integrating extracted information into AI-powered workflows.
-              </p>
-              <div class="project-tags">
-                <span class="tag">AI/LLM Integration</span>
-                <span class="tag">FastAPI</span>
-                <span class="tag">React / Next.js</span>
-                <span class="tag">PostgreSQL / Prisma</span>
-                <span class="tag">Langfuse</span>
-                <span class="tag">Workflow Logic</span>
-              </div>
-              <div class="project-footer">
-                <a href="https://www.raspond.com/" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <i class="fas fa-globe"></i> Visit Raspond <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
+            <span class="project-status-pill featured">🔥 Flagship Project</span>
+          </div>
+          <div class="project-info">
+            <h3>MemLite – AI Memory Engine & Extension</h3>
+            <p>
+              Local-first memory decay and semantic ranking engine for LLMs. Implements FAISS vector indexing, exponential recency decay, and SQLite persistence. Includes a custom Open VSX extension rendering interactive AI thought graphs and synchronizing workspace context.
+            </p>
+            <div class="project-tags-list">
+              <span class="tag-mono">Python</span>
+              <span class="tag-mono">FAISS</span>
+              <span class="tag-mono">SQLite</span>
+              <span class="tag-mono">TypeScript</span>
+              <span class="tag-mono">Open VSX</span>
+              <span class="tag-mono">LangChain</span>
+              <span class="tag-mono">VS Code API</span>
             </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://open-vsx.org/extension/memlite/memlite-extension" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              Open VSX Extension <i class="fas fa-external-link-alt"></i>
+            </a>
+            <a href="https://github.com/Ritiky23/MemLite" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              GitHub Repo <i class="fab fa-github"></i>
+            </a>
           </div>
         </div>
 
-        <!-- Project 2: MemLite -->
-        <div class="project-card-wrapper reveal" data-category="ai-llm fullstack">
-          <div class="project-card">
-            <div class="project-banner">
-              <div class="project-banner-placeholder">
-                <i class="fas fa-brain"></i>
-                <span>MemLite AI Memory Engine</span>
-              </div>
-              <span class="project-badge">Jul 2026</span>
+        <!-- Project 2: Raspond -->
+        <div class="project-card reveal" data-category="ai-systems">
+          <div class="project-card-top">
+            <div class="project-icon-badge">
+              <i class="fas fa-robot"></i>
             </div>
-            <div class="project-body">
-              <h3 class="project-title">MemLite – AI Memory Engine & Open VSX Extension</h3>
-              <p class="project-desc">
-                Local-first memory engine for LLMs featuring semantic retrieval, memory ranking, and automatic memory decay using SQLite and FAISS. Includes a VS Code extension to visualize AI chat history as interactive mind maps.
-              </p>
-              <div class="project-tags">
-                <span class="tag">Python</span>
-                <span class="tag">TypeScript</span>
-                <span class="tag">FAISS</span>
-                <span class="tag">SQLite</span>
-                <span class="tag">LangChain</span>
-                <span class="tag">VS Code API</span>
-              </div>
-              <div class="project-footer">
-                <a href="https://open-vsx.org/extension/memlite/memlite-extension" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <i class="fas fa-puzzle-piece"></i> Open VSX Extension <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
+            <span class="project-status-pill">Live Platform</span>
+          </div>
+          <div class="project-info">
+            <h3>Raspond – AI Agent Platform</h3>
+            <p>
+              AI-driven conversational workflow platform that parses user intent and orchestrates dynamic agent actions. Built the multi-format document ingestion pipeline and integrated Langfuse for end-to-end LLM observability.
+            </p>
+            <div class="project-tags-list">
+              <span class="tag-mono">FastAPI</span>
+              <span class="tag-mono">React / Next.js</span>
+              <span class="tag-mono">PostgreSQL</span>
+              <span class="tag-mono">Langfuse</span>
+              <span class="tag-mono">Prisma</span>
             </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://www.raspond.com/" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              Visit Platform <i class="fas fa-external-link-alt"></i>
+            </a>
           </div>
         </div>
 
         <!-- Project 3: FinTech Apps -->
-        <div class="project-card-wrapper reveal" data-category="mobile fullstack">
-          <div class="project-card">
-            <div class="project-banner">
-              <div class="project-banner-placeholder">
-                <i class="fas fa-mobile-alt"></i>
-                <span>ARFS & AlphaPro Apps</span>
-              </div>
-              <span class="project-badge">2000+ Downloads</span>
+        <div class="project-card reveal" data-category="mobile-fintech">
+          <div class="project-card-top">
+            <div class="project-icon-badge">
+              <i class="fas fa-mobile-alt"></i>
             </div>
-            <div class="project-body">
-              <h3 class="project-title">AlphaPro & ARFS Mobile Trading Platform</h3>
-              <p class="project-desc">
-                Published mobile trading applications on Google Play Store with real-time price feeds, multi-channel notification engine (WhatsApp, Telegram, Email), and advisor promo discount modules.
-              </p>
-              <div class="project-tags">
-                <span class="tag">React Native</span>
-                <span class="tag">Node.js</span>
-                <span class="tag">MongoDB</span>
-                <span class="tag">WebSockets</span>
-                <span class="tag">Google Play</span>
-              </div>
-              <div class="project-footer">
-                <a href="https://play.google.com/store/apps/details?id=com.arpint.alphaquark&pli=1" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <i class="fab fa-google-play"></i> Google Play App <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
+            <span class="project-status-pill">2000+ Downloads</span>
+          </div>
+          <div class="project-info">
+            <h3>AlphaPro & ARFS Trading Apps</h3>
+            <p>
+              Live trading applications published on Google Play Store featuring low-latency market feeds, multi-channel notification engine (WhatsApp/Telegram), and dynamic advisor discount modules.
+            </p>
+            <div class="project-tags-list">
+              <span class="tag-mono">React Native</span>
+              <span class="tag-mono">Node.js</span>
+              <span class="tag-mono">WebSockets</span>
+              <span class="tag-mono">MongoDB</span>
+              <span class="tag-mono">Google Play</span>
             </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://play.google.com/store/apps/details?id=com.arpint.alphaquark&pli=1" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              Google Play Store <i class="fab fa-google-play"></i>
+            </a>
           </div>
         </div>
 
         <!-- Project 4: SIGNTALKS -->
-        <div class="project-card-wrapper reveal" data-category="fullstack">
-          <div class="project-card">
-            <div class="project-banner">
-              <div class="project-banner-placeholder">
-                <i class="fas fa-hands-asl-interpreting"></i>
-                <span>SIGNTALKS</span>
-              </div>
-              <span class="project-badge">Accessibility</span>
+        <div class="project-card reveal" data-category="ai-systems">
+          <div class="project-card-top">
+            <div class="project-icon-badge">
+              <i class="fas fa-hands-asl-interpreting"></i>
             </div>
-            <div class="project-body">
-              <h3 class="project-title">SIGNTALKS – Voice & Text to Sign Animation</h3>
-              <p class="project-desc">
-                Innovative application converting voice and text inputs into 3D sign language animations to improve communication accessibility for the speech and hearing impaired.
-              </p>
-              <div class="project-tags">
-                <span class="tag">JavaScript</span>
-                <span class="tag">Python</span>
-                <span class="tag">Speech Processing</span>
-                <span class="tag">Animation</span>
-              </div>
-              <div class="project-footer">
-                <a href="https://github.com/Ritiky23/SIGNTALKS/tree/main" target="_blank" class="project-link">
-                  Open Project <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
+            <span class="project-status-pill">Accessibility Tech</span>
+          </div>
+          <div class="project-info">
+            <h3>SIGNTALKS – Voice to Sign Language</h3>
+            <p>
+              Accessibility platform translating spoken audio and text into synchronized 3D sign language animations to bridge communication barriers for speech- and hearing-impaired communities.
+            </p>
+            <div class="project-tags-list">
+              <span class="tag-mono">JavaScript</span>
+              <span class="tag-mono">Python</span>
+              <span class="tag-mono">NLP</span>
+              <span class="tag-mono">3D Animation</span>
             </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/Ritiky23/SIGNTALKS/tree/main" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              GitHub Source <i class="fab fa-github"></i>
+            </a>
           </div>
         </div>
 
         <!-- Project 5: Traffic Analyzer -->
-        <div class="project-card-wrapper reveal" data-category="fullstack">
-          <div class="project-card">
-            <div class="project-banner">
-              <div class="project-banner-placeholder">
-                <i class="fas fa-traffic-light"></i>
-                <span>Traffic Analyzer</span>
-              </div>
-              <span class="project-badge">Computer Vision</span>
+        <div class="project-card reveal" data-category="ai-systems">
+          <div class="project-card-top">
+            <div class="project-icon-badge">
+              <i class="fas fa-traffic-light"></i>
             </div>
-            <div class="project-body">
-              <h3 class="project-title">Smart Traffic Flow & Security Analyzer</h3>
-              <p class="project-desc">
-                Low-cost computer vision solution for monitoring traffic density, controlling signal timings dynamically, and enhancing security surveillance at road intersections.
-              </p>
-              <div class="project-tags">
-                <span class="tag">Python</span>
-                <span class="tag">OpenCV</span>
-                <span class="tag">Image Processing</span>
-                <span class="tag">Traffic Management</span>
-              </div>
-              <div class="project-footer">
-                <a href="https://github.com/Ritiky23/Traffic-Analyzer" target="_blank" class="project-link">
-                  Open Project <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
+            <span class="project-status-pill">Computer Vision</span>
+          </div>
+          <div class="project-info">
+            <h3>Smart Traffic Flow Analyzer</h3>
+            <p>
+              Computer vision surveillance solution calculating vehicle density in real-time from camera feeds to dynamically balance traffic signal timers and flag perimeter security violations.
+            </p>
+            <div class="project-tags-list">
+              <span class="tag-mono">Python</span>
+              <span class="tag-mono">OpenCV</span>
+              <span class="tag-mono">Edge Detection</span>
+              <span class="tag-mono">Algorithms</span>
             </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/Ritiky23/Traffic-Analyzer" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              GitHub Source <i class="fab fa-github"></i>
+            </a>
           </div>
         </div>
 
         <!-- Project 6: Ri.Chat -->
-        <div class="project-card-wrapper reveal" data-category="fullstack">
-          <div class="project-card">
-            <div class="project-banner">
-              <div class="project-banner-placeholder">
-                <i class="fas fa-comments"></i>
-                <span>Ri.Chat Realtime</span>
-              </div>
-              <span class="project-badge">Real-Time</span>
+        <div class="project-card reveal" data-category="mobile-fintech">
+          <div class="project-card-top">
+            <div class="project-icon-badge">
+              <i class="fas fa-comments"></i>
             </div>
-            <div class="project-body">
-              <h3 class="project-title">Ri.Chat – Real-Time Chat & Whiteboard</h3>
-              <p class="project-desc">
-                Real-time web chat application featuring instant text messaging paired with a unique multi-user collaborative drawing canvas using HTML5 Canvas & WebSockets.
-              </p>
-              <div class="project-tags">
-                <span class="tag">Node.js</span>
-                <span class="tag">WebSockets</span>
-                <span class="tag">HTML5 Canvas</span>
-                <span class="tag">JavaScript</span>
-              </div>
-              <div class="project-footer">
-                <a href="https://github.com/Ritiky23/Ri.Chat" target="_blank" class="project-link">
-                  Open Project <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
+            <span class="project-status-pill">Real-Time</span>
+          </div>
+          <div class="project-info">
+            <h3>Ri.Chat – Real-Time Collaborative Canvas</h3>
+            <p>
+              Full-duplex web messaging application paired with a multi-user collaborative drawing canvas using HTML5 Canvas primitives and WebSocket broadcast channels.
+            </p>
+            <div class="project-tags-list">
+              <span class="tag-mono">Node.js</span>
+              <span class="tag-mono">WebSockets</span>
+              <span class="tag-mono">HTML5 Canvas</span>
+              <span class="tag-mono">JavaScript</span>
             </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/Ritiky23/Ri.Chat" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              GitHub Source <i class="fab fa-github"></i>
+            </a>
           </div>
         </div>
 
@@ -473,72 +949,84 @@
     </div>
   </section>
 
-  <!-- Skills Matrix Section -->
+  <!-- Skills & Capabilities Section -->
   <section id="skills">
     <div class="container">
       <div class="section-header reveal">
-        <div class="section-tag"><i class="fas fa-cogs"></i> Technical Proficiency</div>
+        <div class="section-tag">// Technical Matrix</div>
         <h2 class="section-title">Skills & Capabilities</h2>
-        <p class="section-subtitle">Technologies, frameworks, databases, and tools I use to build scalable products.</p>
+        <p class="section-subtitle">
+          Core engineering competencies, languages, frameworks, and architecture patterns.
+        </p>
       </div>
 
-      <div class="skills-grid">
+      <div class="skills-matrix-grid reveal">
         
         <!-- Category 1: Languages -->
-        <div class="skill-card reveal">
-          <div class="skill-icon"><i class="fas fa-code"></i></div>
-          <h3 class="skill-card-title">Languages</h3>
-          <div class="skill-tags-list">
-            <span class="skill-item-badge"><i class="fab fa-java"></i> Java</span>
-            <span class="skill-item-badge"><i class="fab fa-python"></i> Python</span>
-            <span class="skill-item-badge"><i class="fab fa-js-square"></i> JavaScript</span>
-            <span class="skill-item-badge"><i class="fas fa-code"></i> TypeScript</span>
-            <span class="skill-item-badge"><i class="fab fa-html5"></i> HTML5 & CSS3</span>
-            <span class="skill-item-badge"><i class="fas fa-terminal"></i> C / C++</span>
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <i class="fas fa-code skill-cat-icon"></i>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-pills-wrap">
+            <span class="tag-mono">Java</span>
+            <span class="tag-mono">Python</span>
+            <span class="tag-mono">TypeScript</span>
+            <span class="tag-mono">JavaScript (ES6+)</span>
+            <span class="tag-mono">C / C++</span>
+            <span class="tag-mono">HTML5 / CSS3</span>
+            <span class="tag-mono">SQL</span>
           </div>
         </div>
 
-        <!-- Category 2: Frameworks & Libraries -->
-        <div class="skill-card reveal">
-          <div class="skill-icon"><i class="fas fa-cubes"></i></div>
-          <h3 class="skill-card-title">Frameworks & Libraries</h3>
-          <div class="skill-tags-list">
-            <span class="skill-item-badge"><i class="fas fa-bolt"></i> FastAPI</span>
-            <span class="skill-item-badge"><i class="fab fa-react"></i> React.js</span>
-            <span class="skill-item-badge"><i class="fab fa-mobile"></i> React Native</span>
-            <span class="skill-item-badge"><i class="fab fa-node-js"></i> Node.js</span>
-            <span class="skill-item-badge"><i class="fas fa-leaf"></i> Django</span>
-            <span class="skill-item-badge"><i class="fas fa-fire"></i> Vite</span>
-            <span class="skill-item-badge"><i class="fas fa-network-wired"></i> WebSockets</span>
+        <!-- Category 2: Backend & Distributed -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <i class="fas fa-server skill-cat-icon"></i>
+            <h3>Backend & Distributed</h3>
+          </div>
+          <div class="skill-pills-wrap">
+            <span class="tag-mono">FastAPI</span>
+            <span class="tag-mono">WebSockets</span>
+            <span class="tag-mono">Redis Pub/Sub</span>
+            <span class="tag-mono">Node.js</span>
+            <span class="tag-mono">Django</span>
+            <span class="tag-mono">RESTful APIs</span>
+            <span class="tag-mono">AsyncIO</span>
           </div>
         </div>
 
         <!-- Category 3: Databases & Tools -->
-        <div class="skill-card reveal">
-          <div class="skill-icon"><i class="fas fa-database"></i></div>
-          <h3 class="skill-card-title">Databases & Tools</h3>
-          <div class="skill-tags-list">
-            <span class="skill-item-badge"><i class="fas fa-server"></i> PostgreSQL</span>
-            <span class="skill-item-badge"><i class="fas fa-bolt"></i> Redis</span>
-            <span class="skill-item-badge"><i class="fas fa-leaf"></i> MongoDB</span>
-            <span class="skill-item-badge"><i class="fas fa-database"></i> MySQL / SQLite</span>
-            <span class="skill-item-badge"><i class="fab fa-git-alt"></i> Git / GitHub</span>
-            <span class="skill-item-badge"><i class="fab fa-android"></i> Android Studio</span>
-            <span class="skill-item-badge"><i class="fas fa-vial"></i> Integration Testing</span>
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <i class="fas fa-database skill-cat-icon"></i>
+            <h3>Databases & Infrastructure</h3>
+          </div>
+          <div class="skill-pills-wrap">
+            <span class="tag-mono">PostgreSQL</span>
+            <span class="tag-mono">Redis</span>
+            <span class="tag-mono">MongoDB</span>
+            <span class="tag-mono">FAISS</span>
+            <span class="tag-mono">SQLite</span>
+            <span class="tag-mono">Git / GitHub</span>
+            <span class="tag-mono">Docker</span>
+            <span class="tag-mono">Google Cloud</span>
           </div>
         </div>
 
-        <!-- Category 4: Architecture & Soft Skills -->
-        <div class="skill-card reveal">
-          <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
-          <h3 class="skill-card-title">Architecture & Soft Skills</h3>
-          <div class="skill-tags-list">
-            <span class="skill-item-badge"><i class="fas fa-microchip"></i> System Design</span>
-            <span class="skill-item-badge"><i class="fas fa-sync"></i> Pub/Sub & Caching</span>
-            <span class="skill-item-badge"><i class="fas fa-project-diagram"></i> SOLID Principles</span>
-            <span class="skill-item-badge"><i class="fas fa-users"></i> Leadership</span>
-            <span class="skill-item-badge"><i class="fas fa-comments"></i> Technical Communication</span>
-            <span class="skill-item-badge"><i class="fas fa-lightbulb"></i> Critical Thinking</span>
+        <!-- Category 4: Mobile & Architecture -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <i class="fas fa-sitemap skill-cat-icon"></i>
+            <h3>Mobile & Architecture</h3>
+          </div>
+          <div class="skill-pills-wrap">
+            <span class="tag-mono">React Native</span>
+            <span class="tag-mono">React.js</span>
+            <span class="tag-mono">Low-Latency Systems</span>
+            <span class="tag-mono">Caching Strategies</span>
+            <span class="tag-mono">SOLID Principles</span>
+            <span class="tag-mono">System Design</span>
           </div>
         </div>
 
@@ -547,136 +1035,148 @@
   </section>
 
   <!-- Education & Achievements Section -->
-  <section id="achievements" style="background: #ffffff;">
+  <section id="education">
     <div class="container">
       <div class="section-header reveal">
-        <div class="section-tag"><i class="fas fa-award"></i> Credentials</div>
+        <div class="section-tag">// Academic & Honors</div>
         <h2 class="section-title">Education & Achievements</h2>
-        <p class="section-subtitle">Academic record, technical publications, competitive programming stats, and awards.</p>
+        <p class="section-subtitle">
+          Academic foundation, competitive programming stats, publications, and certified honors.
+        </p>
       </div>
 
-      <div class="edu-achieve-grid">
+      <div class="credentials-grid reveal">
         
-        <!-- Left Column: Education Card -->
-        <div class="edu-card reveal">
-          <div class="section-tag" style="margin-bottom: 0.8rem;"><i class="fas fa-graduation-cap"></i> Education</div>
+        <!-- Left: Education Card -->
+        <div class="edu-card">
+          <div class="section-tag" style="margin-bottom: 8px;"><i class="fas fa-graduation-cap"></i> Degree</div>
           <h3 class="edu-institution">Pranveer Singh Institute of Technology</h3>
           <div class="edu-degree">Bachelor of Technology – Computer Science & Engineering</div>
-          <div class="edu-cgpa"><i class="fas fa-star"></i> CGPA: 8.0 / 10.0</div>
-          <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.25rem;">
-            Graduated August 2025 | Kanpur, India
+          <div class="edu-gpa-badge">
+            <i class="fas fa-star"></i> CGPA: 8.0 / 10.0
+          </div>
+          <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 16px;">
+            Graduated August 2025 • Kanpur, India
           </p>
 
           <div class="coursework-title">Relevant CS Coursework</div>
           <div class="coursework-tags">
-            <span class="tag">Data Structures & Algorithms</span>
-            <span class="tag">Object-Oriented Programming</span>
-            <span class="tag">Database Management Systems</span>
-            <span class="tag">Operating Systems</span>
-            <span class="tag">Computer Networks</span>
-            <span class="tag">SOLID Principles</span>
+            <span class="tag-mono">Data Structures & Algorithms</span>
+            <span class="tag-mono">Object-Oriented Design</span>
+            <span class="tag-mono">Database Management (DBMS)</span>
+            <span class="tag-mono">Operating Systems</span>
+            <span class="tag-mono">Computer Networks</span>
+            <span class="tag-mono">System Design Principles</span>
           </div>
         </div>
 
-        <!-- Right Column: Achievements List -->
-        <div class="achieve-list reveal">
+        <!-- Right: Achievements List -->
+        <div class="achieve-column">
+          <div class="section-tag" style="margin-bottom: 12px;"><i class="fas fa-trophy"></i> Recognitions</div>
           
-          <div class="achieve-item">
-            <div class="achieve-icon"><i class="fas fa-trophy"></i></div>
-            <div>
-              <h4 class="achieve-title">Adobe GenSolve – Top 5%</h4>
-              <p class="achieve-desc">
-                Reached the top 5th percentile nationwide in the prestigious Adobe GenSolve hackathon challenge. 
-                [<a href="https://drive.google.com/file/d/18nkbL5c9Pno8v_gJIRT60F5sREoKxpoI/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Certificate <i class="fas fa-external-link-alt" style="font-size:0.75rem;"></i></a>]
-              </p>
+          <div class="achieve-list">
+            
+            <div class="achieve-entry">
+              <div class="achieve-icon-badge"><i class="fas fa-award"></i></div>
+              <div>
+                <h4>Adobe GenSolve – Top 5% Nationwide</h4>
+                <p>
+                  Ranked in the top 5th percentile nationwide in the Adobe GenSolve challenge for algorithmic problem solving. 
+                  [<a href="https://drive.google.com/file/d/18nkbL5c9Pno8v_gJIRT60F5sREoKxpoI/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Certificate</a>]
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div class="achieve-item">
-            <div class="achieve-icon" style="background:rgba(6,182,212,0.12); color:var(--accent-cyan); border-color:rgba(6,182,212,0.3);">
-              <i class="fas fa-code-branch"></i>
+            <div class="achieve-entry">
+              <div class="achieve-icon-badge"><i class="fas fa-code"></i></div>
+              <div>
+                <h4>Competitive Programming (700+ DSA)</h4>
+                <p>
+                  Solved over 700+ algorithmic problems across 
+                  <a href="https://leetcode.com/ritikyadav23/" target="_blank" rel="noopener noreferrer">LeetCode (500+)</a> 
+                  and GeeksforGeeks (200+) focusing on dynamic programming, graphs, and low-overhead algorithms.
+                </p>
+              </div>
             </div>
-            <div>
-              <h4 class="achieve-title">Competitive Programming (700+ DSA)</h4>
-              <p class="achieve-desc">
-                Solved over 700+ Data Structures & Algorithms problems across <a href="https://leetcode.com/ritikyadav23/" target="_blank" rel="noopener noreferrer">LeetCode (500+) <i class="fas fa-external-link-alt" style="font-size:0.75rem;"></i></a> and GeeksforGeeks (200+).
-              </p>
-            </div>
-          </div>
 
-          <div class="achieve-item">
-            <div class="achieve-icon" style="background:rgba(99,102,241,0.12); color:var(--accent-indigo); border-color:var(--border-glow);">
-              <i class="fas fa-feather-alt"></i>
+            <div class="achieve-entry">
+              <div class="achieve-icon-badge"><i class="fas fa-pen-nib"></i></div>
+              <div>
+                <h4>Technical Publications</h4>
+                <p>
+                  Author of deep-dive articles including 
+                  <a href="https://medium.com/@ritikyadav2325/how-gpt-works-a-beginner-friendly-deep-dive-inspired-by-karpathy-grant-sanderson-attention-31b96347bb19" target="_blank" rel="noopener noreferrer"><em>"How GPT Works"</em> on Medium</a> 
+                  and <em>"URL Listening in React Native WebView"</em>.
+                </p>
+              </div>
             </div>
-            <div>
-              <h4 class="achieve-title">Technical Writing & Publications</h4>
-              <p class="achieve-desc">
-                Authored technical guides including <a href="https://medium.com/@ritikyadav2325/how-gpt-works-a-beginner-friendly-deep-dive-inspired-by-karpathy-grant-sanderson-attention-31b96347bb19" target="_blank" rel="noopener noreferrer"><em>"How GPT Works"</em> on Medium <i class="fas fa-external-link-alt" style="font-size:0.75rem;"></i></a> and <em>"URL Listening in React Native WebView"</em>.
-              </p>
-            </div>
-          </div>
 
-          <div class="achieve-item">
-            <div class="achieve-icon" style="background:rgba(16,185,129,0.12); color:var(--accent-emerald); border-color:rgba(16,185,129,0.3);">
-              <i class="fab fa-google"></i>
+            <div class="achieve-entry">
+              <div class="achieve-icon-badge"><i class="fab fa-google"></i></div>
+              <div>
+                <h4>Google Cloud & GenAI Badges</h4>
+                <p>
+                  Earned official skill credentials in Google Cloud Platform infrastructure and Generative AI services. 
+                  [<a href="https://www.skills.google/public_profiles/0252bc13-a217-4b66-8474-cf448dbebbc3" target="_blank" rel="noopener noreferrer">Verified Google Profile</a>]
+                </p>
+              </div>
             </div>
-            <div>
-              <h4 class="achieve-title">Google Cloud & GenAI Badges</h4>
-              <p class="achieve-desc">
-                Earned official Skill Badges on Google Cloud Platform and Generative AI infrastructure. 
-                [<a href="https://www.skills.google/public_profiles/0252bc13-a217-4b66-8474-cf448dbebbc3" target="_blank" rel="noopener noreferrer">View Google Profile <i class="fas fa-external-link-alt" style="font-size:0.75rem;"></i></a>]
-              </p>
-            </div>
-          </div>
 
+          </div>
         </div>
 
       </div>
     </div>
   </section>
 
-  <!-- Contact & CTA Section -->
+  <!-- Contact Section -->
   <section id="contact">
     <div class="container">
-      <div class="contact-card reveal">
-        <div class="section-tag"><i class="fas fa-paper-plane"></i> Get In Touch</div>
-        <h2 class="section-title" style="font-size: 2.8rem;">Let’s Build Something Extraordinary</h2>
-        <p class="section-subtitle" style="max-width: 600px; margin: 0 auto;">
-          Whether you have an exciting job opportunity, a project to collaborate on, or just want to connect — feel free to drop me a message!
+      <div class="contact-container reveal">
+        <div class="section-tag" style="justify-content: center;">// Let's Connect</div>
+        <h2>Ready to Build High-Performance Systems</h2>
+        <p>
+          Available for SDE, Backend Engineering, and Distributed Systems roles. Reach out directly via email or connect on LinkedIn.
         </p>
 
-        <div class="contact-grid">
-          <a href="https://drive.google.com/file/d/1ulqJRBHZrEYlBmDZto_X7ZTQTidBmF_j/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="contact-item">
-            <i class="fas fa-file-pdf" style="color:var(--accent-rose);"></i> Download Resume
+        <div class="contact-links-grid">
+          <a href="https://drive.google.com/file/d/16CcRL8Nc7f53hG5z6bmnKrb7dhCZQx2U/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="contact-chip">
+            <i class="fas fa-file-pdf" style="color: #ef4444;"></i> Resume (PDF)
           </a>
-          <a href="mailto:ritikyadav2325@gmail.com" class="contact-item">
-            <i class="far fa-envelope" style="color:var(--accent-indigo);"></i> ritikyadav2325@gmail.com
+          <a href="mailto:ritikyadav2325@gmail.com" class="contact-chip">
+            <i class="far fa-envelope" style="color: var(--accent-cyan);"></i> ritikyadav2325@gmail.com
           </a>
-          <a href="https://linkedin.com/in/iritikyadav23/" target="_blank" class="contact-item">
-            <i class="fab fa-linkedin-in" style="color:var(--accent-cyan);"></i> LinkedIn Profile
+          <a href="https://linkedin.com/in/iritikyadav23/" target="_blank" rel="noopener noreferrer" class="contact-chip">
+            <i class="fab fa-linkedin-in" style="color: #60a5fa;"></i> LinkedIn
           </a>
-          <a href="https://github.com/Ritiky23" target="_blank" class="contact-item">
-            <i class="fab fa-github" style="color:var(--accent-amber);"></i> GitHub Profile
+          <a href="https://github.com/Ritiky23" target="_blank" rel="noopener noreferrer" class="contact-chip">
+            <i class="fab fa-github" style="color: #f59e0b;"></i> GitHub
           </a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer Section -->
+  <!-- Footer -->
   <footer class="footer">
-    <div class="container">
-      <div class="footer-socials">
-        <a href="https://github.com/Ritiky23" target="_blank" class="social-circle" aria-label="GitHub"><i class="fab fa-github"></i></a>
-        <a href="https://linkedin.com/in/iritikyadav23/" target="_blank" class="social-circle" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://leetcode.com/ritikyadav23/" target="_blank" class="social-circle" aria-label="LeetCode"><i class="fas fa-code"></i></a>
-        <a href="mailto:ritikyadav2325@gmail.com" class="social-circle" aria-label="Email"><i class="far fa-envelope"></i></a>
+    <div class="container footer-content">
+      <div class="footer-left">
+        <p>Ritik Yadav &copy; 2026 • Designed for High-Performance Engineering</p>
+        <div class="visitor-simple-chip">
+          <span class="visitor-pulse"></span>
+          <span>Total Visitors: <strong id="portfolioVisitorCount">1,483</strong></span>
+        </div>
       </div>
-      <p>Handcrafted with <i class="fas fa-heart" style="color: var(--accent-rose);"></i> by Ritik Yadav &copy; 2026</p>
+      <div class="footer-socials">
+        <a href="https://github.com/Ritiky23" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/iritikyadav23/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://leetcode.com/ritikyadav23/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+        <a href="mailto:ritikyadav2325@gmail.com" class="social-icon-btn" aria-label="Email"><i class="far fa-envelope"></i></a>
+      </div>
     </div>
   </footer>
 
-  <!-- Scripts -->
+  <!-- Interactive Logic -->
   <script src="js/app.js"></script>
 </body>
 </html>
